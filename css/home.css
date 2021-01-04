@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../img/bg-2.png');
+    background-attachment: fixed;
+}
+
+.home {
+    width: 1140px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: orangered;
+    margin-top: 10px;
+    padding: 15px;
+
+}
+
+header img {
+    float: left;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header img:hover {
+    border-radius: 20%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+
+header a:hover {
+    border-radius: 20%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+
+header .links {
+    float: left;
+    padding-top: 10px;
+}
+
+header .links li {
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+header .user {
+    padding-top: 10px;
+    float: right;
+}
+
+header .user li {
+    padding: 5px
+}
+
+main {
+    float: left;
+    width: 800px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+main section {
+    margin: 10px;
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+main section img {
+    width: 380px;
+}
+
+main section:nth-child(odd) {
+    float: left;
+}
+
+main section:nth-child(even) {
+    float: right;
+}
+
+main section h2 {
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+
+main section button {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+main section button:hover {
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+aside {
+    float: right;
+    width: 320px;
+    height: 200px;
+}
+
+aside h2 {
+    background-color: white;
+    padding: 5px;
+    margin: 15px 0;
+    border: rgb(100, 154, 175) 1px solid;
+    text-transform: capitalize;
+}
+
+aside article {
+    background-color: white;
+    border: rgb(100, 154, 175) 1px solid;
+    padding: 5px;
+}
+
+aside section article:last-child {
+    margin-bottom: 40px;
+}
+
+aside section article a {
+    text-decoration: none;
+    color: black;
+}
+
+aside section article a:hover {
+    opacity: .6;
+}
+
+aside article p {
+    float: right;
+    width: 182px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.ad {
+    border: rgb(100, 154, 175) solid 1px;
+    background-color: white;
+    padding: 5px;
+}
+
+.img2 {
+    margin-top: 15px;
+}

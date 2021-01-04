@@ -1,0 +1,138 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../img/bg-2.png');
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.home {
+    width: 1140px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: orangered;
+    margin-top: 10px;
+    padding: 15px;
+
+}
+
+header img {
+    float: left;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header img:hover {
+    border-radius: 20%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+
+header a:hover {
+    border-radius: 20%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+
+header .links {
+    float: left;
+    padding-top: 10px;
+}
+
+header .links li {
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+header .user {
+    padding-top: 10px;
+    float: right;
+}
+
+header .user li {
+    padding: 5px
+}
+
+main h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.login {
+    max-width: 400px;
+}
+
+.login label {
+    color: black;
+}
+
+#email,
+#password {
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+div.em {
+    margin-top: 20px;
+}
+
+div.pw {
+    margin-top: 20px;
+}
+
+div.one {
+    margin-top: 20px;
+    text-align: right;
+}
+
+button {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+    background-color: rgb(70, 70, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .7);
+    color: rgba(10, 2, 0, 0.5);
+}
+
+input {
+    cursor: pointer;
+}
